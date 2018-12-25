@@ -1,7 +1,9 @@
 # MAC升级Nodejs和Npm到最新版
 
 1. 查看本机node.js版本： 
-   ```node -v```
+   ```
+   node -v
+   ```
 
 2. 清除node.js的cache：
    ```sudo npm cache clean -f```
@@ -19,7 +21,7 @@
    ```sudo npm install npm@latest -g```
 
 7. 验证： 
-   ```node -v
+   ```
    node -v
    npm -v
    ```
